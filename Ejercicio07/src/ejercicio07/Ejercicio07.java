@@ -2,13 +2,13 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
-package ejercicio06;
+package ejercicio07;
 
 /**
  *
  * @author Usuario
  */
-public class Ejercicio06 {
+public class Ejercicio07 {
 
     /**
      * @param args the command line arguments
@@ -22,17 +22,24 @@ public class Ejercicio06 {
         int var4 = 9;
         int var5 = 10;
         int var6 = 1;
+        int var7 = 100;
+        int var8 = 25;
+        int var9 = 100;
         
         System.out.println("-----------Solución a problema-----------");
         
-        double valor = (Math.sqrt(var1) + var2) / var3; 
+        double valor = (Math.sqrt(var1) + var2) / var3;
         
-        boolean var = valor == var4;
-       
-        boolean var01 = var5 > var6;
+        double val = var7 / var8 ;
         
-        System.out.println(var && var01);
+        boolean var01 = valor == var4;
         
-            }
+        boolean var02 = var5 > var6;
+        
+        boolean var03 = val > var9;
+        
+        System.out.println(var01 || var02 && var03 );
+        
+    }
     
 }
